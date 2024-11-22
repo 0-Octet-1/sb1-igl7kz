@@ -1,0 +1,88 @@
+{
+  "common": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "admin": "Admin",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember me",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "resetPassword": "Reset Password",
+    "verifyEmail": "Verify Email"
+  },
+  "courses": {
+    "title": "Courses",
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published",
+      "archived": "Archived"
+    },
+    "duration": "Duration",
+    "modules": "Modules",
+    "progress": "Progress",
+    "startCourse": "Start Course",
+    "continueCourse": "Continue Course",
+    "completeCourse": "Complete Course"
+  },
+  "feedback": {
+    "title": "Feedback",
+    "type": {
+      "question": "Question",
+      "suggestion": "Suggestion",
+      "issue": "Issue"
+    },
+    "status": {
+      "pending": "Pending",
+      "resolved": "Resolved"
+    },
+    "submit": "Submit Feedback",
+    "yourMessage": "Your Message"
+  },
+  "ratings": {
+    "title": "Ratings",
+    "overall": "Overall Rating",
+    "criteria": {
+      "content": "Content",
+      "presentation": "Presentation",
+      "difficulty": "Difficulty",
+      "usefulness": "Usefulness"
+    },
+    "submitRating": "Submit Rating",
+    "distribution": "Rating Distribution",
+    "basedOn": "Based on {{count}} ratings"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "courses": "Courses",
+    "content": "Content",
+    "settings": "Settings",
+    "stats": "Statistics",
+    "export": "Export",
+    "management": {
+      "users": "User Management",
+      "courses": "Course Management",
+      "content": "Content Management"
+    }
+  }
+}

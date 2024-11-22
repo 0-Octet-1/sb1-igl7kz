@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&family=Share+Tech+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles globaux */
+body {
+  @apply bg-background text-primary font-mono antialiased;
+  background-image: url('/images/noise.png');
+  background-repeat: repeat;
+}
+
+/* Effets spéciaux */
+.tech-text {
+  @apply font-mono text-accent;
+  text-shadow: 0 0 10px theme('colors.accent.DEFAULT');
+}
+
+.gold-text {
+  @apply font-display text-gold;
+  text-shadow: 0 0 10px theme('colors.gold.DEFAULT');
+}
+
+.tech-border {
+  @apply border border-accent/30;
+  box-shadow: inset 0 0 15px theme('colors.accent.DEFAULT');
+}
+
+.tech-panel {
+  @apply bg-surface/90 backdrop-blur-sm border border-accent/20;
+  box-shadow: inset 0 0 20px theme('colors.accent.DEFAULT');
+}
+
+/* Boutons */
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded font-mono
+         transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-primary {
+  @apply bg-accent text-white hover:bg-accent-hover shadow-glow;
+}
+
+.btn-secondary {
+  @apply bg-gold text-background hover:bg-gold-hover shadow-gold;
+}
+
+/* Cartes et panneaux */
+.panel {
+  @apply bg-surface/90 backdrop-blur-sm border border-border
+         rounded-lg p-6 transition-all duration-200;
+}
+
+.panel-interactive {
+  @apply hover:border-accent/50 hover:shadow-glow;
+}
+
+/* Textes techniques */
+.tech-title {
+  @apply font-display text-accent tracking-wider uppercase;
+}
+
+/* Effets de survol */
+.hover-glow {
+  @apply transition-all duration-200;
+}
+
+.hover-glow:hover {
+  @apply shadow-glow;
+}
+
+.hover-gold {
+  @apply transition-all duration-200;
+}
+
+.hover-gold:hover {
+  @apply shadow-gold;
+}

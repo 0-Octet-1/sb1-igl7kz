@@ -1,0 +1,88 @@
+{
+  "common": {
+    "login": "Connexion",
+    "register": "Inscription",
+    "logout": "Déconnexion",
+    "profile": "Profil",
+    "admin": "Administration",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "rememberMe": "Se souvenir de moi",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Déjà un compte ?",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "verifyEmail": "Vérifier l'email"
+  },
+  "courses": {
+    "title": "Formations",
+    "level": {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé"
+    },
+    "status": {
+      "draft": "Brouillon",
+      "published": "Publié",
+      "archived": "Archivé"
+    },
+    "duration": "Durée",
+    "modules": "Modules",
+    "progress": "Progression",
+    "startCourse": "Commencer la formation",
+    "continueCourse": "Continuer la formation",
+    "completeCourse": "Terminer la formation"
+  },
+  "feedback": {
+    "title": "Feedback",
+    "type": {
+      "question": "Question",
+      "suggestion": "Suggestion",
+      "issue": "Problème"
+    },
+    "status": {
+      "pending": "En attente",
+      "resolved": "Résolu"
+    },
+    "submit": "Envoyer le feedback",
+    "yourMessage": "Votre message"
+  },
+  "ratings": {
+    "title": "Évaluations",
+    "overall": "Note globale",
+    "criteria": {
+      "content": "Contenu",
+      "presentation": "Présentation",
+      "difficulty": "Difficulté",
+      "usefulness": "Utilité"
+    },
+    "submitRating": "Soumettre l'évaluation",
+    "distribution": "Distribution des notes",
+    "basedOn": "Basé sur {{count}} évaluations"
+  },
+  "admin": {
+    "dashboard": "Tableau de bord",
+    "users": "Utilisateurs",
+    "courses": "Formations",
+    "content": "Contenu",
+    "settings": "Paramètres",
+    "stats": "Statistiques",
+    "export": "Exporter",
+    "management": {
+      "users": "Gestion des utilisateurs",
+      "courses": "Gestion des formations",
+      "content": "Gestion du contenu"
+    }
+  }
+}
